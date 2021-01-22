@@ -46,4 +46,5 @@ public class StringBoolean {
 		return output;
 	}
 
+	
 }

@@ -1,6 +1,6 @@
 package testing;
 
-/* Uncomment the below code to test your application
+//Uncomment the below code to test your application
 
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -18,7 +18,7 @@ public class TestStringAdvanceMethod {
 		assertEquals("Program", sam.getInput2());
 		try {
 			sam.setInput1(null);
-			sam.setInput2(null);
+			sam.setInput1(null);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -63,4 +63,3 @@ public class TestStringAdvanceMethod {
 		}
 	}
 }
-*/
